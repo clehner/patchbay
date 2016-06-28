@@ -46,6 +46,10 @@ exports.message_render = function (msg, sbot) {
       if(ev.keyCode == 13) {
         msg.querySelector('.enter').click()
       }
+      //on plus, hit first vote.
+      else if(ev.keyCode == 187) {
+        msg.querySelector('.plus').click()
+      }
     }}
   )
 
