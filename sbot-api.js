@@ -71,6 +71,9 @@ module.exports = function () {
         sbot.blobs.add()
       )
     }),
+    sbot_blobs_resolve: rec.async(function (id, cb) {
+      sbot.blobs.resolve(id, cb)
+    }),
     sbot_links: rec.source(function (query) {
       return sbot.links(query)
     }),

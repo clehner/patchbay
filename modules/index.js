@@ -3,6 +3,7 @@ module.exports = [
   require('./avatar-image.js'),
   require('./avatar-profile.js'),
   require('./avatar.js'),
+  require('./blob.js'),
   require('./channel.js'),
   require('./compose.js'),
   require('./crypto.js'),
